@@ -9,5 +9,9 @@ public class Controller {
     public String test(){
         return "Hi java";
     }
+    @GetMapping("/hi")
+    public String check(){
+        return "Hi Spring boot 2.0.0";
+    }
     
 }
